@@ -1,0 +1,213 @@
+                path                 |  num   |           slug            |               title                | author_id 
+-------------------------------------+--------+---------------------------+------------------------------------+-----------
+ /article/candidate-is-jerk          | 338647 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/bears-love-berries         | 253801 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bad-things-gone            | 170098 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/goats-eat-googles          |  84906 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/trouble-for-troubled       |  84810 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/balloon-goons-doomed       |  84557 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/so-many-bears              |  84504 | so-many-bears             | There are a lot of bears           |         1
+ /article/media-obsessed-with-bears  |  84383 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/candidate-is-jerkx         |    161 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkq         |    155 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkh         |    152 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkr         |    148 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkg         |    147 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerke         |    146 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkb         |    144 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkl         |    144 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkv         |    143 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerki         |    142 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkt         |    138 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkn         |    138 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkf         |    137 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerky         |    137 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkp         |    135 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerka         |    135 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkc         |    134 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkw         |    134 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkz         |    133 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkm         |    132 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerks         |    131 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkd         |    124 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerku         |    124 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/bears-love-berriesp        |    123 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/candidate-is-jerkj         |    121 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/candidate-is-jerkk         |    120 | candidate-is-jerk         | Candidate is jerk, alleges rival   |         2
+ /article/bears-love-berriesb        |    118 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesv        |    117 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesw        |    115 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesy        |    111 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriess        |    110 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesm        |    109 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesu        |    106 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesj        |    106 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriest        |    104 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesg        |    104 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesr        |    102 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesq        |    102 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesk        |    101 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesn        |    101 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesi        |    101 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesc        |    100 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesx        |    100 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesa        |     97 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesd        |     95 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesl        |     92 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriese        |     92 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesf        |     88 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bears-love-berriesz        |     88 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bad-things-gonek           |     88 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonev           |     84 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bears-love-berriesh        |     82 | bears-love-berries        | Bears love berries, alleges bear   |         1
+ /article/bad-things-goney           |     73 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-goneq           |     73 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonez           |     72 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-goneh           |     72 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonee           |     72 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-goneu           |     70 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-goneb           |     69 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonef           |     68 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonec           |     67 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonen           |     67 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gones           |     66 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonem           |     66 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonea           |     66 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonew           |     66 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonep           |     65 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonej           |     64 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonel           |     60 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-goneg           |     60 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonei           |     60 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-gonex           |     59 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-goner           |     55 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/bad-things-goned           |     52 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/trouble-for-troubledk      |     50 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/bad-things-gonet           |     50 | bad-things-gone           | Bad things gone, say good people   |         3
+ /article/goats-eat-googlesc         |     50 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/balloon-goons-doomedt      |     50 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/media-obsessed-with-bearsb |     49 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/trouble-for-troubledm      |     45 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/media-obsessed-with-bearse |     45 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/balloon-goons-doomeda      |     44 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/media-obsessed-with-bearsg |     44 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/trouble-for-troubledy      |     44 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/so-many-bearsf             |     43 | so-many-bears             | There are a lot of bears           |         1
+ /article/media-obsessed-with-bearsh |     43 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/trouble-for-troubledg      |     43 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/media-obsessed-with-bearsc |     43 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/goats-eat-googlesd         |     43 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/so-many-bearsv             |     42 | so-many-bears             | There are a lot of bears           |         1
+ /article/so-many-bearsx             |     42 | so-many-bears             | There are a lot of bears           |         1
+ /article/goats-eat-googlesl         |     42 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/goats-eat-googlesx         |     42 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/so-many-bearsm             |     41 | so-many-bears             | There are a lot of bears           |         1
+ /article/balloon-goons-doomedi      |     41 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/balloon-goons-doomedu      |     41 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/trouble-for-troublede      |     41 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/so-many-bearsc             |     41 | so-many-bears             | There are a lot of bears           |         1
+ /article/media-obsessed-with-bearsa |     40 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/media-obsessed-with-bearsy |     40 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/so-many-bearsh             |     40 | so-many-bears             | There are a lot of bears           |         1
+ /article/goats-eat-googlesb         |     40 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/trouble-for-troubledp      |     39 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/goats-eat-googlesp         |     39 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/so-many-bearsz             |     39 | so-many-bears             | There are a lot of bears           |         1
+ /article/balloon-goons-doomedb      |     38 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/trouble-for-troubledn      |     38 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/media-obsessed-with-bearsr |     38 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/balloon-goons-doomedj      |     38 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/balloon-goons-doomedk      |     38 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/trouble-for-troubleda      |     38 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/goats-eat-googlesk         |     38 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/goats-eat-googlesr         |     38 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/so-many-bearsn             |     37 | so-many-bears             | There are a lot of bears           |         1
+ /article/trouble-for-troubledx      |     37 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/balloon-goons-doomeds      |     37 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/goats-eat-googless         |     37 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/so-many-bearsb             |     37 | so-many-bears             | There are a lot of bears           |         1
+ /article/so-many-bearst             |     37 | so-many-bears             | There are a lot of bears           |         1
+ /article/so-many-bearsp             |     37 | so-many-bears             | There are a lot of bears           |         1
+ /article/so-many-bearsl             |     37 | so-many-bears             | There are a lot of bears           |         1
+ /article/trouble-for-troubledh      |     36 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/goats-eat-googlesw         |     36 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/trouble-for-troubledb      |     36 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/goats-eat-googlesa         |     36 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/media-obsessed-with-bearsn |     36 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/so-many-bearsj             |     36 | so-many-bears             | There are a lot of bears           |         1
+ /article/media-obsessed-with-bearsm |     36 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/balloon-goons-doomedp      |     35 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/goats-eat-googlesz         |     35 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/goats-eat-googlesm         |     35 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/media-obsessed-with-bearsj |     35 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/so-many-bearsk             |     35 | so-many-bears             | There are a lot of bears           |         1
+ /article/media-obsessed-with-bearsf |     34 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/trouble-for-troubledf      |     34 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/goats-eat-googlesq         |     34 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/media-obsessed-with-bearsz |     34 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/media-obsessed-with-bearsq |     34 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/trouble-for-troubledj      |     34 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/so-many-bearsa             |     34 | so-many-bears             | There are a lot of bears           |         1
+ /article/goats-eat-googlesv         |     34 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/trouble-for-troubledt      |     34 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/so-many-bearsi             |     34 | so-many-bears             | There are a lot of bears           |         1
+ /article/balloon-goons-doomedq      |     34 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/trouble-for-troubledw      |     34 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/media-obsessed-with-bearsk |     34 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/media-obsessed-with-bearsi |     34 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/goats-eat-googlesf         |     34 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/so-many-bearss             |     33 | so-many-bears             | There are a lot of bears           |         1
+ /article/so-many-bearsd             |     33 | so-many-bears             | There are a lot of bears           |         1
+ /article/media-obsessed-with-bearsv |     33 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/so-many-bearsg             |     33 | so-many-bears             | There are a lot of bears           |         1
+ /article/media-obsessed-with-bearsx |     33 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/so-many-bearsu             |     33 | so-many-bears             | There are a lot of bears           |         1
+ /article/trouble-for-troubledi      |     33 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/goats-eat-googlesg         |     33 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/balloon-goons-doomedd      |     33 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/balloon-goons-doomedn      |     32 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/so-many-bearsw             |     32 | so-many-bears             | There are a lot of bears           |         1
+ /article/so-many-bearsr             |     31 | so-many-bears             | There are a lot of bears           |         1
+ /article/balloon-goons-doomedc      |     31 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/goats-eat-googlesi         |     31 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/media-obsessed-with-bearsp |     31 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/balloon-goons-doomedz      |     31 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/media-obsessed-with-bearst |     31 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/media-obsessed-with-bearss |     31 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/so-many-bearsy             |     30 | so-many-bears             | There are a lot of bears           |         1
+ /article/balloon-goons-doomedl      |     30 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/media-obsessed-with-bearsu |     30 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/media-obsessed-with-bearsl |     30 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/trouble-for-troubledv      |     30 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/trouble-for-troubledc      |     30 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/balloon-goons-doomedy      |     30 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/balloon-goons-doomedv      |     30 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/goats-eat-googlese         |     30 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/balloon-goons-doomedh      |     30 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/balloon-goons-doomedr      |     30 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/trouble-for-troubledl      |     30 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/trouble-for-troubledu      |     29 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/balloon-goons-doomedm      |     29 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/media-obsessed-with-bearsd |     29 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/trouble-for-troubleds      |     29 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/goats-eat-googlesh         |     28 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/goats-eat-googlesj         |     28 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/trouble-for-troubledz      |     28 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/balloon-goons-doomedw      |     28 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/goats-eat-googlesy         |     27 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/goats-eat-googlest         |     27 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/so-many-bearsq             |     27 | so-many-bears             | There are a lot of bears           |         1
+ /article/goats-eat-googlesu         |     27 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/trouble-for-troubledr      |     26 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/trouble-for-troubledd      |     26 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/balloon-goons-doomedg      |     26 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/balloon-goons-doomede      |     26 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/balloon-goons-doomedf      |     25 | balloon-goons-doomed      | Balloon goons doomed               |         4
+ /article/trouble-for-troubledq      |     25 | trouble-for-troubled      | Trouble for troubled troublemakers |         2
+ /article/goats-eat-googlesn         |     25 | goats-eat-googles         | Goats eat Google's lawn            |         1
+ /article/so-many-bearse             |     24 | so-many-bears             | There are a lot of bears           |         1
+ /article/media-obsessed-with-bearsw |     23 | media-obsessed-with-bears | Media obsessed with bears          |         1
+ /article/balloon-goons-doomedx      |     23 | balloon-goons-doomed      | Balloon goons doomed               |         4
+(208 rows)
+
+SQL: select logPathWithCount.*, articles.slug, articles.title, articles.author as author_id from logPathWithCount join articles on logPathWithCount.path ~ articles.slug order by logPathWithCount.num desc;

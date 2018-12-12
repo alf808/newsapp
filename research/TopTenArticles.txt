@@ -1,0 +1,15 @@
+                path                |  num   
+------------------------------------+--------
+ /                                  | 479121
+ /article/candidate-is-jerk         | 338647
+ /article/bears-love-berries        | 253801
+ /article/bad-things-gone           | 170098
+ /article/goats-eat-googles         |  84906
+ /article/trouble-for-troubled      |  84810
+ /article/balloon-goons-doomed      |  84557
+ /article/so-many-bears             |  84504
+ /article/media-obsessed-with-bears |  84383
+ /spam-spam-spam-humbug             |    301
+(10 rows)
+
+SQL: select path, count(*) as num from log group by path order by num desc limit 10;

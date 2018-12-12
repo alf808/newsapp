@@ -1,0 +1,6 @@
+    date    | num  | total_requests | error 
+------------+------+----------------+-------
+ 2016-07-17 | 1265 |          55907 |  2.26
+(1 row)
+
+SQL: select dwes.*, rpd.num as total_requests, round((dwes.num * 100.0) / rpd.num, 2) as error from datesWithErrorStatus as dwes join requestsPerDate as rpd on dwes.date = rpd.date where round((dwes.num * 100.0) / rpd.num, 2) > 1;

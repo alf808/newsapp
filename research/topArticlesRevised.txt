@@ -1,0 +1,13 @@
+           slug            |               title                | total  
+---------------------------+------------------------------------+--------
+ candidate-is-jerk         | Candidate is jerk, alleges rival   | 342102
+ bears-love-berries        | Bears love berries, alleges bear   | 256365
+ bad-things-gone           | Bad things gone, say good people   | 171762
+ goats-eat-googles         | Goats eat Google's lawn            |  85775
+ trouble-for-troubled      | Trouble for troubled troublemakers |  85679
+ so-many-bears             | There are a lot of bears           |  85392
+ balloon-goons-doomed      | Balloon goons doomed               |  85387
+ media-obsessed-with-bears | Media obsessed with bears          |  85273
+(8 rows)
+
+SQL: select DISTINCT la.slug, la.title, s.total from lpwc_articles as la join (select slug, SUM(num) as total from lpwc_articles group by slug) as s on la.slug = s.slug order by s.total desc;

@@ -1,0 +1,9 @@
+          name          | id | author_id | total  
+------------------------+----+-----------+--------
+ Ursula La Multa        |  1 |         1 | 512805
+ Rudolf von Treppenwitz |  2 |         2 | 427781
+ Anonymous Contributor  |  3 |         3 | 171762
+ Markoff Chaney         |  4 |         4 |  85387
+(4 rows)
+
+SQL: select authors.name, authors.id, sss.author_id, sss.total from authors join (select DISTINCT la.author_id, s.total from lpwc_articles as la join (select author_id, SUM(num) as total from lpwc_articles group by author_id) as s on la.author_id = s.author_id order by s.total desc) as sss on authors.id = sss.author_id;

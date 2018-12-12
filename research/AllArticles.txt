@@ -1,0 +1,13 @@
+           slug            |               title                | id 
+---------------------------+------------------------------------+----
+ bad-things-gone           | Bad things gone, say good people   | 23
+ balloon-goons-doomed      | Balloon goons doomed               | 24
+ bears-love-berries        | Bears love berries, alleges bear   | 25
+ candidate-is-jerk         | Candidate is jerk, alleges rival   | 26
+ goats-eat-googles         | Goats eat Google's lawn            | 27
+ media-obsessed-with-bears | Media obsessed with bears          | 28
+ trouble-for-troubled      | Trouble for troubled troublemakers | 30
+ so-many-bears             | There are a lot of bears           | 29
+(8 rows)
+
+SQL: select slug, title, id from articles;

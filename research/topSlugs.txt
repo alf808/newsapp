@@ -1,0 +1,13 @@
+           slug            | total  
+---------------------------+--------
+ candidate-is-jerk         | 342102
+ bears-love-berries        | 256365
+ bad-things-gone           | 171762
+ goats-eat-googles         |  85775
+ trouble-for-troubled      |  85679
+ so-many-bears             |  85392
+ balloon-goons-doomed      |  85387
+ media-obsessed-with-bears |  85273
+(8 rows)
+
+SQL: select DISTINCT la.slug, s.total from lpwc_articles as la join (select slug, SUM(num) as total from lpwc_articles group by slug) as s on la.slug = s.slug order by s.total desc;

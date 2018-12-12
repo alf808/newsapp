@@ -1,0 +1,13 @@
+               title                |          name          
+------------------------------------+------------------------
+ Bad things gone, say good people   | Anonymous Contributor
+ Balloon goons doomed               | Markoff Chaney
+ Candidate is jerk, alleges rival   | Rudolf von Treppenwitz
+ Trouble for troubled troublemakers | Rudolf von Treppenwitz
+ There are a lot of bears           | Ursula La Multa
+ Bears love berries, alleges bear   | Ursula La Multa
+ Goats eat Google's lawn            | Ursula La Multa
+ Media obsessed with bears          | Ursula La Multa
+(8 rows)
+
+SQL: select articles.title, authors.name from articles left join authors on articles.author = authors.id order by authors.name;

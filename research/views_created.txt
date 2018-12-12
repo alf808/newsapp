@@ -1,0 +1,22 @@
+create view logPathWithCount as select path, count(*) as num from log group by path;
+
+
+select logPathWithCount.*, articles.slug, articles.title, articles.author as author_id from logPathWithCount join articles on logPathWithCount.path ~ articles.slug order by logPathWithCount.num desc;
+
+
+create view lpwc_articles as select lpc.*, a.slug, a.title, a.author as author_id from logPathWithCount as lpc join articles as a on lpc.path ~ a.slug order by lpc.num desc;
+
+select DISTINCT la.slug, la.title, s.total from lpwc_articles as la join (select slug, SUM(num) as total from lpwc_articles group by slug) as s on la.slug = s.slug order by s.total desc;
+
+
+
+create view datesWithErrorStatus as select DATE(time) as date, count(*) as num from log where status != '200 OK' group by date order by date desc;
+
+select *, round((num * 100.0) / 1677735, 2) as error from dateswitherrorstatus;
+
+
+
+create view requestsPerDate as select DATE(time) as date, count(*) as num from log group by date order by date desc;
+
+
+select dwes.*, rpd.num as total_requests, round((dwes.num * 100.0) / rpd.num, 2) as error from datesWithErrorStatus as dwes join requestsPerDate as rpd on dwes.date = rpd.date where error > 1;

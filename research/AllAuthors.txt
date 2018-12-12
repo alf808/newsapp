@@ -1,0 +1,9 @@
+          name          | id 
+------------------------+----
+ Ursula La Multa        |  1
+ Rudolf von Treppenwitz |  2
+ Anonymous Contributor  |  3
+ Markoff Chaney         |  4
+(4 rows)
+
+SQL: select name, id from authors;
