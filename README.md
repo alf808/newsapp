@@ -30,16 +30,16 @@ create view topdateinerror as select dwes.date, round((dwes.num * 100.0) / rpd.n
 
 `$ python newsapp.py`
 
+## Usage
+
+The http service should be running on the localhost. Use a browser to go to http://localhost:8000.
+![image](supplement/ReportingToolScreenShot.png)
+
 ## Sample Output
 
 The file <a href="sampleOutput.txt">sampleOutput.txt</a> is the result of extracting the requests per day with error status. It was created with the sql query:
 
 `select dwes.*, rpd.num as total_requests, round((dwes.num * 100.0) / rpd.num, 2) as error from datesWithErrorStatus as dwes join requestsPerDate as rpd on dwes.date = rpd.date;`
-
-## Usage
-
-The http service should be running on the localhost. Use a browser to go to http://localhost:8000.
-![image](supplement/ReportingToolScreenShot.png)
 
 ## Resources
 
