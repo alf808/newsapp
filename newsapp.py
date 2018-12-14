@@ -42,8 +42,8 @@ REPORT2 = '''\
 try:
     db = psycopg2.connect(database="news")
     c = db.cursor()
-except:
-    print ("Unable to connect to the database")
+except (Exception, psycopg2.Error) as error:
+    print("Unable to connect to the database", error)
 
 
 def get_topArticles():
