@@ -6,7 +6,7 @@ This **Python3** application uses **Postgresql** as database backend. The python
 
 ## Installation
 
-This project requires installing a Linux virtual machine. Unfortunately, Udacity's installation instructions were problematic. After days of experimentation and configuration in different machines, the following instructions finally worked for me on a Mac machine.
+This project requires installing a Linux virtual machine. Unfortunately, installation instructions were problematic. After days of experimentation and configuration in different machines, the following instructions finally worked for me on a Mac machine.
 
 ### Environment
 
@@ -15,10 +15,9 @@ This project requires installing a Linux virtual machine. Unfortunately, Udacity
 1. Download and install the latest Oracle VM Virtualbox application at <a href="https://www.virtualbox.org/">https://www.virtualbox.org/</a>.
 2. Download and install the latest HashiCorp Vagrant application at <a href="https://www.vagrantup.com/downloads.html">https://www.vagrantup.com/downloads.html</a>.
 3. Download and unpack the VM configuration at <a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip">https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip</a>.
-4. `$ cd /vagrant` into this newly unpacked directory.
-5. The next step will start the Linux VM. **Please note that the next step may take a few hours (in my case on cellular data in Thailand) to run initially since it is downloading a Linux Ubuntu distro with a size of nearly 5 GB, and an additional 1 GB for distro upgrades.**
-`$ vagrant up`
-6. `$ vagrant ssh` will log you into the Linux shell.
+4. `cd /vagrant` into this newly unpacked directory.
+5. `vagrant up` will start the Linux VM. **Please note that this step may take a few hours (in my case on cellular data in Thailand) to run initially since it is downloading a Linux Ubuntu distro with a size of nearly 5 GB, and an additional 1 GB for distro upgrades.**
+6. `vagrant ssh` will log you into the Linux shell.
 7. `cd /vagrant`
 8. Download and unpack the <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip">newsdata</a>.
 9. `psql -d news -f newsdata.sql` will install and populate the Postgresql database.
@@ -44,7 +43,7 @@ create view topdateinerror as select dwes.date, round((dwes.num * 100.0) / rpd.n
 
 **After installing the views in psql, exit `psql` and place a copy of python code newsapp.py and proceed with the following in Bash shell:**
 
-`$ python newsapp.py`
+`python newsapp.py`
 
 Since I am using Python 3, ensure that you have it with `python3 --version`. If errors occur, then python 3 may not be installed. Install Python 3 with `sudo apt-get install python3`.
 
