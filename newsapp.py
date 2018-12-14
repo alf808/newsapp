@@ -35,41 +35,37 @@ REPORT = '''\
     <td>%s</td><td> -- </td><td>%s views</td>
     </tr></table>
 '''
-
 REPORT2 = '''\
     <div>%s -- %s percent error</div>
 '''
 
+try:
+    db = psycopg2.connect(database="news")
+    c = db.cursor()
+except:
+    print ("Unable to connect to the database")
+
 
 def get_topArticles():
     """Return top three articles from news."""
-    db = psycopg2.connect(database="news")
-    c = db.cursor()
     c.execute("select title, total from top3articles")
     posts = c.fetchall()
-    db.close()
     return posts
 
 
 def get_popularAuthors():
     """Return all authors sorted by popularity."""
-    db = psycopg2.connect(database="news")
-    c = db.cursor()
     c.execute("select name, total from authorsbypopularity")
     posts = c.fetchall()
-    db.close()
     return posts
 
 
 def get_topDateError():
-    """Return the top date on which more than 1% of requests led to errors."""
-    db = psycopg2.connect(database="news")
-    c = db.cursor()
+    """Return the dates on which more than 1% of requests led to errors."""
     c.execute(
         "select TO_CHAR(date::DATE,'Mon dd, yyyy'),error from topdateinerror"
         )
     posts = c.fetchall()
-    db.close()
     return posts
 
 
