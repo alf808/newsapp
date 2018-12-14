@@ -58,6 +58,10 @@ The file <a href="sampleOutput.txt">sampleOutput.txt</a> is the result of extrac
 
 `select dwes.*, rpd.num as total_requests, round((dwes.num * 100.0) / rpd.num, 2) as error from datesWithErrorStatus as dwes join requestsPerDate as rpd on dwes.date = rpd.date;`
 
+## Code Base
+
+My python code newsapp.py is based on the **forum** code from the Python DB-API lectures.
+
 ## Resources
 
 * <a href="http://www.postgresqltutorial.com/postgresql-administration/">PostgreSQL Administration</a>
