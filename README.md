@@ -2,11 +2,27 @@
 
 This is an internal reporting tool that will use information from the news database to discover what kind of articles the site's readers like.
 
-This **Python3** application uses **Postgresql** as database backend. The code also uses **Flask** as a web framework to get the reporting tool running immediately on python's http service. It also uses **psycopg2** to connect to Postgresql backend. To facilitate development, a Linux virtual machine was provided with all necessary applications and configuration to run the python application.
+This **Python3** application uses **Postgresql** as database backend. The python code also uses **Flask** as a web framework to get the reporting tool running immediately on python's http service. It also uses **psycopg2** to connect to Postgresql backend. To facilitate development, a Linux virtual machine was provided with all necessary applications and configuration to run the python application.
 
 ## Installation
 
-### On the vagrant shell, please ensure to install the newsdata sql file provided. Then install the views below.
+This project requires installing a Linux virtual machine. Unfortunately, Udacity's installation instructions were problematic. After days of experimentation and configuration in different machines, the following instructions finally worked for me on a Mac machine.
+
+### Environment
+
+**Although it is just a few steps, because I am in Thailand with cellular data, the process and experimentation took about 3 days to set up**. Be forewarned that a lot of data is needed for this setup.
+
+1. Download and install the latest Oracle VM Virtualbox application at <a href="https://www.virtualbox.org/">https://www.virtualbox.org/</a>.
+2. Download and install the latest HashiCorp Vagrant application at <a href="https://www.vagrantup.com/downloads.html">https://www.vagrantup.com/downloads.html</a>.
+3. Download and unpack the VM configuration at <a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip">https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip</a>.
+4. `$ cd /vagrant` into this newly unpacked directory.
+5. The next step will start the Linux VM. **Please note that the next step may take a few hours (in my case on cellular data in Thailand) to run initially since it is downloading a Linux Ubuntu distro with a size of nearly 5 GB, and an additional 1 GB for distro upgrades.**
+`$ vagrant up`
+6. `$ vagrant ssh` will log you into the Linux shell.
+7. `cd /vagrant`
+8. Download and unpack the <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip">newsdata</a>.
+9. `psql -d news -f newsdata.sql` will install and populate the Postgresql database.
+10. Install the views below in `psql` shell.
 
 ### Views
 
@@ -26,18 +42,20 @@ create view authorsbypopularity as select authors.name, sss.total from authors j
 create view topdateinerror as select dwes.date, round((dwes.num * 100.0) / rpd.num, 2) as error from datesWithErrorStatus as dwes join requestsPerDate as rpd on dwes.date = rpd.date where round((dwes.num * 100.0) / rpd.num, 2) > 1;
 ```
 
-**After installing the views, proceed with the following:**
+**After installing the views in psql, exit `psql` and place a copy of python code newsapp.py and proceed with the following in Bash shell:**
 
 `$ python newsapp.py`
 
+Since I am using Python 3, ensure that you have it with `python3 --version`. If errors occur, then python 3 may not be installed. Install Python 3 with `sudo apt-get install python3`.
+
 ## Usage
 
-The http service should be running on the localhost. Use a browser to go to http://localhost:8000.
+After running `python newsapp.py`, the http service should be running on the localhost. Use a browser to go to http://localhost:8000.
 ![image](supplement/ReportingToolScreenShot.png)
 
 ## Sample Output
 
-The file <a href="sampleOutput.txt">sampleOutput.txt</a> is the result of extracting the requests per day with error status. It was created with the sql query:
+The file <a href="sampleOutput.txt">sampleOutput.txt</a> is the result of extracting the requests per day with error status. It was created with the sql query code:
 
 `select dwes.*, rpd.num as total_requests, round((dwes.num * 100.0) / rpd.num, 2) as error from datesWithErrorStatus as dwes join requestsPerDate as rpd on dwes.date = rpd.date;`
 
